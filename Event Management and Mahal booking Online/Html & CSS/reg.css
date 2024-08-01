@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Welcome Banner */
+.welcome-banner {
+    background: url('banner-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+.welcome-banner .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px 20px;
+    border-radius: 8px;
+}
+
+.welcome-banner h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px;
+}
+
+.welcome-banner p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.intro p {
+    font-size: 1.1em;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.how-it-works .step {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.how-it-works p {
+    font-size: 1em;
+    margin: 0;
+}
+
+/* Registration Form Section */
+.registration-form {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.registration-form a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.registration-form a:hover {
+    background-color: #0056b3;
+}
+
+/* Why Sell Section */
+.why-sell {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.why-sell h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.why-sell ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.why-sell ul li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonial {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.faq .question {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.faq .question h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.faq .question p {
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer-links {
+    flex: 1;
+}
+
+.footer-links a {
+    color: white;
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    flex: 1;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 0.9em;
+}

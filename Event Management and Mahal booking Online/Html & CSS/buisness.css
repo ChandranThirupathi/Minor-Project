@@ -1,0 +1,159 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Overall body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-items {
+    display: flex;
+}
+
+.navbar-item {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar-item:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Category sidebar */
+.category {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #444;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.category .close {
+    align-self: flex-end;
+    font-size: 1.5em;
+}
+
+.category .cat-item p {
+    margin: 15px 0;
+}
+
+.category .cat-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.category .cat-item a:hover {
+    text-decoration: underline;
+}
+
+/* Main container */
+.container {
+    padding: 20px;
+    margin-left: 270px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.head p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icon-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon-container img {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.submit-container {
+    text-align: center;
+}
+
+.submit-container input[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.submit-container input[type="submit"]:hover {
+    background-color: #004d99;
+}
+
+/* Script for sidebar toggle */
+/* <script>
+    function opentog() {
+        document.getElementById('category').style.display = 'block';
+    }
+
+    function closetog() {
+        document.getElementById('category').style.display = 'none';
+    }
+</script> */
+
